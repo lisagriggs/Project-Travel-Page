@@ -1,4 +1,4 @@
-South Korea Travel information page ☀️❄️☁️🌧🌦️
+South Korea Travel information page 🌏
 
 LIVE PREVIEW 👉 
 
