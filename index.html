@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>South Korea</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>South Korea</h1>
+        <h2>Explore a visual and culturally stunning landscape</h2>
+        <img
+          class="headerimg"
+          src="https://images.pexels.com/photos/2848492/pexels-photo-2848492.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          alt="picture of namsan tower in seoul"
+        />
+        <p>
+          The Korean Peninsula offers the traveller a dazzling range of experiences, beautiful
+          landscapes and 5000 years of culture and history.
+        </p>
+      </div>
+      <div class="whygo">
+        <hr />
+        <h3>Why go?</h3>
+        <div class="whygo-items">
+          <ul>
+            <li>
+              <p><span class="title">Seoul</span></p>
+              <img
+                src="https://www.c-mw.net/wp-content/uploads/2019/06/steven-roe-991118-unsplash-1600x1000.jpg"
+                alt="Seoul"
+              />
+              <p><em>Seoul is the capital and largest city in South Korea.</em></p>
+            </li>
+            <li>
+              <p><span class="title">Countryside</span></p>
+              <img
+                src="https://live.staticflickr.com/5124/5285781636_c86dcf2f10_b.jpg"
+                alt="Countryside"
+              />
+              <p><em>Venture out of the city and into the rural scenic landscape.</em></p>
+            </li>
+            <li>
+              <p><span class="title">Food</span></p>
+              <img
+                src="https://handluggageonly.co.uk/wp-content/uploads/2015/09/Hand-Luggage-Only-5-1.jpg"
+                alt="Food"
+              />
+              <p><em>Fresh healthy and flavourful dishes are a main staple for Koreans. </em></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="attractions">
+        <hr />
+        <h3>Attractions</h3>
+        <p>
+          <strong
+            >A nation ripe with cultural, historical, and natural tourist attractions South Korea
+            has a plethora of interesting sights</strong
+          >
+        </p>
+
+        <div class="attractions-items">
+          <ul>
+            <li>
+              <p class="title">Gyeongbokgung palace | 경복궁</p>
+              <img
+                src="https://i0.wp.com/www.agoda.com/wp-content/uploads/2019/05/Gyeongbokgung-palace-Seoul-architecture-view.jpg"
+                alt="Gyeongbokgung palace "
+              />
+              <p>
+                Gyeongbokgung, also known as Gyeongbokgung Palace or Gyeongbok Palace, was the main
+                royal palace of the Joseon dynasty.<br />
+                Built in 1395, it is located in northern Seoul, South Korea.
+              </p>
+              <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264337"
+                >More information about Gyeongbokgung palace
+              </a>
+            </li>
+
+            <li>
+              <p class="title">Myeong-dong | 명동</p>
+              <img
+                src="https://www.ivisitkorea.com/wp-content/uploads/2019/10/Myeongdong.jpg"
+                alt="Myeongdong"
+              />
+              <p>
+                Bustling Myeong-dong is a shopping area packed with international fashion brands,
+                luxury department stores and homegrown cosmetics shops. Casual eateries offer Korean
+                dumplings and ginseng chicken soup, while street vendors sell Japanese and Thai
+                snacks.
+              </p>
+              <a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264312"
+                >More information about Myeong-dong</a
+              >
+            </li>
+
+            <li>
+              <p class="title">Namiseom Island | 남이섬</p>
+              <img
+                src="https://tongglobalcdn.visitkorea.or.kr/cms/resource/44/2944544_image2_1.bmp"
+                alt="Namiseon Island"
+              />
+              <p>
+                Namiseom or Nami Island is a half-moon shaped island located in Chuncheon, Gangwon
+                Province, South Korea, formed as the land around it was inundated by the rising
+                water of the North Han River as the result of the construction of Cheongpyeong Dam
+                in 1944.
+              </p>
+              <a href="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264244"
+                >More information about Namiseom Island</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="button">
+          <h2>Want to know more?</h2>
+          <p>
+            Sign up for our newsletter today where you will learn the best spots in Seoul to
+            experience the bustling cafe culture, or if you're into Korean dramas, know where they
+            are filmed and get exclusive tour information.
+          </p>
+          <button>Start your adventure here</button>
+        </div>
+      </div>
+      <footer>Made by Lisa Griggs</footer>
+    </div>
+    <script>
+      function signUp() {
+        let firstname = prompt("What is your first name?");
+        let age = prompt("How old are you?");
+        let email = prompt("What is your email?");
+
+        if (age < 18) {
+          alert("Sorry. You aren't old enough to recieve our newsletter.");
+        } else {
+          alert(
+            "Thank you " +
+              firstname +
+              "! We will send you up to date information regularly to " +
+              email
+          );
+        }
+      }
+
+      let signUpButton = document.querySelector("button");
+
+      signUpButton.addEventListener("click", signUp);
+    </script>
+  </body>
+</html>

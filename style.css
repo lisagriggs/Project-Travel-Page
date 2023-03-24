@@ -1,0 +1,193 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px auto;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #ff7373;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #666666;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 30px 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 10px;
+    color: #444444;
+  }
+
+  hr {
+    border: 0.5px solid #ff7373;
+    width: 50px;
+    margin: 10px auto;
+  }
+  .header {
+    margin: 0px auto;
+    padding: 20px;
+    background: linear-gradient(#fff7f7, #ffffff);
+    border-radius: 20px;
+  }
+
+  .headerimg {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .whygo {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+    background: linear-gradient(#fff7f7, #ffffff);
+    border-radius: 20px;
+  }
+
+  h3 {
+    margin: 0px auto;
+    padding: 10px;
+    color: #444444;
+  }
+
+  .whygo-items ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .whygo-items li {
+    list-style: none;
+    display: inline-block;
+    margin: 8px;
+    padding: 0px 15px 20px 15px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 5px #dfdfdf;
+    border-radius: 5px;
+    max-width: 250px;
+    height: 260px;
+    vertical-align: top;
+    line-height: 17px;
+  }
+
+  .whygo img {
+    max-width: 250px;
+    max-height: 200px;
+  }
+
+  p em {
+    font-size: 13px;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .attractions {
+    text-align: center;
+    margin: 0px auto;
+    text-align: center;
+    background: linear-gradient(#fff7f7, #ffffff);
+    border-radius: 20px;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .attractions-items ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .attractions-items li {
+    list-style: none;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 80%;
+    line-height: 25px;
+    box-shadow: 0px 0px 5px #dfdfdf;
+    background-color: #ffffff;
+  }
+
+  .attractions img {
+    max-width: 80%;
+    border-radius: 10px;
+    margin: 15px;
+  }
+
+  .attractions p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  a {
+    font-weight: 300;
+    font-size: 13px;
+    text-decoration: none;
+    color: #ff7373;
+    margin: 0px auto;
+  }
+
+  a:hover {
+    color: #ff0000;
+    transition: all 200ms ease-in-out;
+  }
+
+  .button {
+    margin: 0px auto;
+    text-align: center;
+    background: linear-gradient(#fff7f7, #ffffff);
+    border-radius: 20px;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .button p {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 25px;
+  }
+
+  button {
+    text-align: center;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 20px 30px;
+    color: #ffffff;
+    background-color: #ff7373;
+    box-shadow: 0px 0px 5px #9a9a9a;
+  }
+
+  button:hover {
+    background-color: #fff7f7;
+    color: #ff7373;
+    transition: all 200ms ease-in-out;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+  }
